@@ -90,6 +90,7 @@ class ScaffoldMakeCommand extends Command
         $this->makeModel();
         $this->makeController();
         // $this->makeLocalization(); //ToDo - implement in future version
+        $this->makeRoute();
         $this->makeViews();
         $this->makeViewLayout();
 
@@ -193,6 +194,11 @@ class ScaffoldMakeCommand extends Command
     private function makeLocalization()
     {
         new MakeLocalization($this, $this->files);
+    }
+    
+    private function makeRoute()
+    {
+        new MakeRoute($this, $this->files);
     }
 
     /**
