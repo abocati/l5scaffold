@@ -1,6 +1,9 @@
 machine:
   php:
-    version: 7.1.5
+    version: 7.0.2
 test:
   override:
     - vendor/bin/phpunit --configuration phpunit.xml
+dependencies:
+  pre:
+    - rm /opt/circleci/php/$(phpenv global)/etc/conf.d/xdebug.ini
