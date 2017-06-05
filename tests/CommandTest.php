@@ -51,7 +51,7 @@ class CommandTest extends PHPUnit
 			'database/seeds', 
 			'database/migrations',
 			'resources/views',
-			'routes/web.php'
+			'routes'
 		];
 	}
 
