@@ -6,8 +6,17 @@
 
 # install
 
+## composer
+
 ```
 composer require --dev imasami/l5scaffold:dev-develop
+```
+
+## composer.json
+```json
+    "require-dev": {
+        "imasami/l5scaffold": "dev-develop"
+    },
 ```
 
 # Usage
