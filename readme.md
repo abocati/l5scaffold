@@ -1,21 +1,21 @@
 # Laravel 5.4 Scaffold Generator
 
 ![Laravel5.4](https://img.shields.io/badge/Laravel-5.4-red.svg)
-[![Build Status](https://travis-ci.org/imasami/l5scaffold.svg?branch=develop)](https://travis-ci.org/imasami/l5scaffold)
-[![Packagist](https://img.shields.io/packagist/dt/imasami/l5scaffold.svg?style=flat-square)](https://packagist.org/packages/imasami/l5scaffold)
+[![Build Status](https://travis-ci.org/positrium/l5scaffold.svg?branch=develop)](https://travis-ci.org/imasami/l5scaffold)
+[![Packagist](https://img.shields.io/packagist/dt/positrium/l5scaffold.svg?style=flat-square)](https://packagist.org/packages/positrium/l5scaffold)
 
 # install
 
 ## composer
 
 ```
-composer require --dev imasami/l5scaffold:dev-develop
+composer require --dev positrium/l5scaffold:dev-develop
 ```
 
 ## composer.json
 ```json
     "require-dev": {
-        "imasami/l5scaffold": "dev-develop"
+        "positrium/l5scaffold": "dev-develop"
     },
 ```
 
