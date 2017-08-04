@@ -1,13 +1,12 @@
 {
-  "name": "imasami/l5scaffold",
+  "name": "positrium/l5scaffold",
   "description": "Extend Laravel 5.4's generators scaffold.",
   "keywords": ["laravel", "generators", "scaffold" , "laravel5.4"],
   "license": "MIT",
   "minimum-stability": "dev",
   "authors": [
     {
-      "name": "imasami",
-      "email": "ito_ma@ap-com.co.jp"
+      "name": "positrium"
     }
   ],
   "require": {
